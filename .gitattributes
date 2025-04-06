@@ -66,3 +66,7 @@
 
 # Exclude frontend client from stats
 clientapp.client/* linguist-vendored
+googleLandRegistrySearch.html linguist-detectable=false
+SampleData/* linguist-detectable=false
+
+
