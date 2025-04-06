@@ -42,7 +42,7 @@ function App() {
     return (
         <div className="wrapper">
             <div className="content-container">
-                <h1 className="title">SEO Rank Checker</h1>
+                <h1 className="title">SEO Rank Tracker</h1>
                 <p className="subtitle">
                     Enter your search keywords and domain to see where your site ranks in Google.
                 </p>
@@ -127,7 +127,7 @@ function App() {
                     </div>
 
                     <button type="submit" className="btn-submit">
-                        Check Rank
+                        Search url positions
                     </button>
                     <button type="button" className="btn-read-history" onClick={fetchSearchHistory}>
                         Read past queries
