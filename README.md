@@ -58,6 +58,8 @@ Make sure the dotnet-ef tool is installed globally:
 ```
 dotnet tool install --global dotnet-ef
 ```
+<img src="https://github.com/user-attachments/assets/edcb98aa-bad8-45f1-8a16-05d50cd843c6" width="400" height="600"/>
+
 
 ### Option 2 — Run via Visual Studio
 Open the RankTracker.sln solution in Visual Studio.
