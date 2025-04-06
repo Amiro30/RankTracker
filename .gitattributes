@@ -61,3 +61,8 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+# Mark C# as primary language
+*.cs linguist-language=C#
+
+# Exclude frontend client from stats
+clientapp.client/* linguist-vendored
