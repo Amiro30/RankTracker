@@ -25,7 +25,7 @@ git clone https://github.com/Amiro30/RankTracker
 1. **Restore packages and build the backend:**
 ```
 cd RankTracker
-dotnet restore
+dotnet restore (if went wrong, check nuget.Congig - should be ENABLED:  <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />)
 dotnet build
 ```
 2. Start the backend API: 
@@ -36,18 +36,19 @@ dotnet run --project RankTracker.Api
 ```
 cd clientapp.client
 npm install
-npm run dev
+npm run dev (if went wrong, can change port in vite.config.js - port: 3000, instead of 54211)
 ```
 go to  http://localhost:54211/
 
 
-Database & Persistence
-This app uses Entity Framework Core with SQL Server Express LocalDB (or your default SQL Server instance).
+## Database & Persistence
+This app uses Entity Framework Core with SQL Server Express LocalDB.
 
 The schema is created using migrations, and the initial migration has already been committed to the repository.
 
-Applying the Migration
-If the database doesn't exist, it will be created automatically when the application starts.
+**Applying the Migration**
+
+**If the database doesn't exist, it will be created automatically when the application starts.**
 
 Alternatively, to apply the migration manually:
 ```
