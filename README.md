@@ -11,7 +11,7 @@ This is a full-stack application to track a website's position in Google and Bin
 
 ## Requirements
 
-- .NET 8 SDK
+- .NET 8 SDK - https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.100-windows-x64-installer
 - Node.js (v18+ recommended)
 - npm or yarn
 
